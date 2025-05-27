@@ -56,10 +56,11 @@ main {
 }
 
 img {
+  width: 300px;          /* largura fixa */
+  height: 200px;         /* altura fixa */
+  object-fit: cover;     /* recorte para preencher o espaço */
   border: 2px solid #00f0ff;
   box-shadow: 0 0 10px #00f0ff;
-  max-width: 100%;
-  height: auto;
   margin: 1rem 0;
   border-radius: 10px;
 }
