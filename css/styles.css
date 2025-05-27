@@ -11,21 +11,21 @@ body {
 }
 
 header {
-  background: linear-gradient(90deg, #6a0dad, #00f0ff);
+  background: linear-gradient(90deg, #00f0ff, #6a0dad);
   color: #fff;
   text-align: center;
   padding: 1rem 0;
-  box-shadow: 0 0 10px #6a0dad;
+  box-shadow: 0 0 10px #00f0ff;
 }
 
 h1, h2, h3 {
-  color: #9f4dff;
-  text-shadow: 0 0 10px #00f0ff;
+  color: #00f0ff;
+  text-shadow: 0 0 10px #9f4dff;
 }
 
 nav {
   background-color: rgba(20, 20, 20, 0.9);
-  box-shadow: 0 0 10px #6a0dad;
+  box-shadow: 0 0 10px #00f0ff;
 }
 
 nav ul {
@@ -38,7 +38,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: #00f0ff;
+  color: #9f4dff;
   text-decoration: none;
   font-weight: bold;
   padding: 0.5rem 1rem;
@@ -47,8 +47,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: rgba(154, 0, 255, 0.3);
-  box-shadow: 0 0 10px #00f0ff;
+  background: rgba(0, 240, 255, 0.3);
+  box-shadow: 0 0 10px #9f4dff;
 }
 
 main {
@@ -56,8 +56,8 @@ main {
 }
 
 img {
-  border: 2px solid #9f4dff;
-  box-shadow: 0 0 10px #6a0dad;
+  border: 2px solid #00f0ff;
+  box-shadow: 0 0 10px #00f0ff;
   max-width: 100%;
   height: auto;
   margin: 1rem 0;
@@ -65,7 +65,7 @@ img {
 }
 
 a {
-  color: #00f0ff;
+  color: #9f4dff;
 }
 
 a:hover {
@@ -76,8 +76,16 @@ footer {
   text-align: center;
   padding: 1rem;
   background: #1a1a1a;
-  box-shadow: 0 0 10px #6a0dad;
-  color: #9f4dff;
+  box-shadow: 0 0 10px #00f0ff;
+  color: #00f0ff;
 }
 
-/* Vídeo res*
+/* Vídeo responsivo */
+iframe {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  border: 2px solid #00f0ff;
+  box-shadow: 0 0 10px #9f4dff;
+  border-radius: 10px;
+}
