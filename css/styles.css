@@ -1,6 +1,3 @@
-/* styles.css */
-
-/* Definições gerais */
 body {
   background-color: #0c0c0c;
   color: #f0f0f0;
@@ -56,9 +53,9 @@ main {
 }
 
 img {
-  width: 300px;          /* largura fixa */
-  height: 200px;         /* altura fixa */
-  object-fit: cover;     /* recorte para preencher o espaço */
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
   border: 2px solid #00f0ff;
   box-shadow: 0 0 10px #00f0ff;
   margin: 1rem 0;
@@ -81,7 +78,6 @@ footer {
   color: #00f0ff;
 }
 
-/* Vídeo responsivo */
 iframe {
   display: block;
   margin: 2rem auto;
