@@ -53,9 +53,9 @@ main {
 }
 
 img {
-  width: 600px; /* 2x do original: 300px x 2 */
-  height: 400px; /* 2x do original: 200px x 2 */
-  object-fit: cover;
+  width: 300px;          /* largura fixa */
+  height: 200px;         /* altura fixa */
+  object-fit: cover;     /* recorte para preencher o espaço */
   border: 2px solid #00f0ff;
   box-shadow: 0 0 10px #00f0ff;
   margin: 1rem auto; /* Centraliza horizontalmente */
