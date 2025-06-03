@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  text-align: center;
 }
 
 header {
@@ -53,14 +54,14 @@ main {
 }
 
 img {
-  width: 300px;          /* largura fixa */
-  height: 200px;         /* altura fixa */
-  object-fit: cover;     /* recorte para preencher o espaço */
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
   border: 2px solid #00f0ff;
   box-shadow: 0 0 10px #00f0ff;
-  margin: 1rem auto; /* Centraliza horizontalmente */
+  margin: 1rem auto;
   border-radius: 10px;
-  display: block; /* Necessário para margin auto funcionar */
+  display: block;
 }
 
 a {
