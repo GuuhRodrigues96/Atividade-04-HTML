@@ -1,3 +1,5 @@
-# Atividade-04-HTML
-### Projeto desenvolvido por Gustavo Rodrigues de Oliveira.
-#### Atividade 04 da disciplina Desenvolvimento WEB I 2025
+# 04-HTML
+
+## Gustavo Rodrigues de Oliveira
+
+Este é o meu projeto para a atividade #04 da disciplina de Desenvolvimento WEB I
